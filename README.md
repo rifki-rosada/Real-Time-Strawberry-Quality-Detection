@@ -46,11 +46,13 @@ The performance of the three models was benchmarked across several standard obje
 * **Development Environment:** Google Colab
 * **Hardware:** NVIDIA Tesla T4 GPU with CUDA 12.4
 
-## 💻 Code & Reproducibility
+## 💻 Code, Weights, and Results
 
-The core methodology for training and evaluation was consistent across all three YOLO variants. To provide a clear and readable example of the end-to-end workflow, the Jupyter Notebook for the **YOLOv8 experiment** is included in this repository.
+This project's assets are organized as follows:
 
-The complete output folders—containing the final model weights, training logs, confusion matrices, and result graphs for each of the three experiments—are available as downloadable `.zip` files in the main directory.
+* **YOLOv7:** The full, unzipped `yolov7_results` folder is available in this repository. The final model weights (`best.pt`) are tracked using Git LFS.
+* **YOLOv8 & YOLOv11:** The complete output folders for these experiments, including model weights and graphs, are available as downloadable `.zip` files: `yolov8_results.zip` and `yolov11_results.zip`.
+* **Representative Code:** The `Representative_Code_YOLOv8_Experiment.ipynb` notebook provides a clear example of the end-to-end workflow used for training and evaluation, which was consistent across all three models.
 
 ## 🚀 Future Work & Business Impact
 
