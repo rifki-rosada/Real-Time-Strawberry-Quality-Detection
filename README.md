@@ -46,6 +46,12 @@ The performance of the three models was benchmarked across several standard obje
 * **Development Environment:** Google Colab
 * **Hardware:** NVIDIA Tesla T4 GPU with CUDA 12.4
 
+## 💻 Code & Reproducibility
+
+The core methodology for training and evaluation was consistent across all three YOLO variants. To provide a clear and readable example of the end-to-end workflow, the Jupyter Notebook for the **YOLOv8 experiment** is included in this repository.
+
+The complete output folders—containing the final model weights, training logs, confusion matrices, and result graphs for each of the three experiments—are available as downloadable `.zip` files in the main directory.
+
 ## 🚀 Future Work & Business Impact
 
 The findings from this research serve as a direct proof-of-concept for significant agricultural automation. Future work will focus on:
